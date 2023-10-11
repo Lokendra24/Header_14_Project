@@ -1,0 +1,338 @@
+.signup_container {
+  position: relative;
+  width: 1400px;
+  height: 890px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2f1893;
+}
+
+.signup_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 972px;
+  height: 40px;
+  position: absolute;
+  top: 65px;
+  color: white;
+  /* border: 1px solid red; */
+}
+
+.header_left {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.header_left > h4 {
+  color: #fff;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.293px;
+  cursor: pointer;
+}
+
+.header_right {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.header_right > p:nth-child(1) {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  cursor: pointer;
+}
+.header_right > p:nth-child(2) {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 144.444% */
+  cursor: pointer;
+}
+.header_right > p:nth-child(3) {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 144.444% */
+  cursor: pointer;
+}
+.header_right > p:nth-child(4) {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 144.444% */
+  cursor: pointer;
+}
+
+.header_right > p:nth-child(5) {
+  width: 120px;
+  height: 40px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  border-radius: 100px;
+  background-color: #e93a7d;
+  cursor: pointer;
+}
+
+.signup_form {
+  position: absolute;
+  width: 972px;
+  top: 219px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.signup_form_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 427px;
+  height: 496px;
+  /* border: 1px solid red; */
+}
+
+.signup_form_left > h2 {
+  width: 424px;
+  height: 217px;
+  font-family: DM Sans;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -1px;
+  text-align: left;
+}
+
+.signup_form_left > h5 {
+  width: 363px;
+  height: 160px;
+  font-family: DM Sans;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.signup_form_left > button {
+  width: 157px;
+  height: 50px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: #e93a7d;
+}
+
+.signup_form_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 470px;
+  height: 600px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.signup_form_right_content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 330px;
+  height: auto;
+  color: black;
+}
+
+.signup_form_right_content > h3 {
+  font-family: DM Sans;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: -0.4000000059604645px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.signup_form_right_content > input:nth-of-type(1) {
+  width: 330px;
+  height: 50px;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-left: 20px;
+  border: 2px solid #ebeaed;
+  border-radius: 100px;
+}
+
+.signup_form_right_content > input:nth-of-type(2) {
+  width: 330px;
+  height: 50px;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-left: 20px;
+  border: 2px solid #ebeaed;
+  border-radius: 100px;
+}
+
+.checkbox_container {
+  display: flex;
+  gap: 15px;
+  margin: 10px 0;
+}
+
+.checkbox_container > input {
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  background-color: #25dac5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+    filter: sepia(100%) brightness(80%) hue-rotate(170deg) saturate(70%) contrast(300%);
+}
+
+.checkbox_container > p {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(21, 20, 57, 0.4);
+}
+
+.signup_form_right_content > button:nth-of-type(1) {
+  width: 330px;
+  height: 50px;
+  border-radius: 100px;
+  background: rgba(72, 43, 231, 1);
+  outline: none;
+  border: none;
+  color: white;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+  cursor: pointer;
+}
+.signup_form_right_content > button:nth-of-type(2) {
+  width: 330px;
+  height: 50px;
+  border-radius: 100px;
+  background: rgba(29, 161, 242, 1);
+  outline: none;
+  border: none;
+  color: white;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.signup_form_right_content > p {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(21, 20, 57, 0.4);
+}
+
+.signup_form_right_content > p > span {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(37, 218, 197, 1);
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.divider {
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  /* white-space: no-wrap; */
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(21, 20, 57, 0.4);
+}
+.divider:before,
+.divider:after {
+  border: 2px solid rgba(235, 234, 237, 1);
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 10px;
+}
+.divider:after {
+  margin-right: -100%;
+  padding-right: 100%;
+}
+.divider:before {
+  margin-left: -100%;
+  padding-left: 100%;
+}
